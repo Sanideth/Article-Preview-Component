@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: hsl(217, 19%, 35%);
+  --color-secondary: hsl(214, 17%, 51%);
+  --color-tertiary: hsl(212, 23%, 69%);
+  --color-quaternary: hsl(210, 46%, 95%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  background-color: var(--color-quaternary);
+}
+
+.container {
+  width: 50vw;
+  max-width: 80rem;
+}
