@@ -2,3 +2,37 @@
 .u-mb-sm {
   margin-bottom: 1.5rem;
 }
+
+.u-mr-m {
+  margin-right: 5rem;
+
+  @media only screen and (max-width: $bp-smallest) {
+    margin-right: 0.5rem;
+  }
+}
+
+.toggleFlex {
+  display: flex;
+}
+
+.btn-positioned {
+  position: relative;
+  z-index: 100;
+  right: 2rem;
+  top: 1rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  background-color: var(--color-secondary);
+
+  @media only screen and (max-width: $bp-smallest) {
+    right: -1rem;
+  }
+}
+
+.white {
+  fill: #fff;
+}
+
+.mobile-bubble {
+  justify-content: flex-start;
+}

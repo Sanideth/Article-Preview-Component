@@ -13,6 +13,9 @@
   --color-quaternary: hsl(210, 46%, 95%);
 }
 
+$bp-small: 35em; //breakpoint at 560px
+$bp-smallest: 29.25em; //breakpoint at 468px
+$bp-tiny: 18.75em; //breakpoint at 300px
 html {
   font-size: 62.5%;
 }
@@ -25,9 +28,23 @@ body {
   align-items: center;
   font-size: 1.3rem;
   background-color: var(--color-quaternary);
+  @media only screen and (max-width: $bp-small) {
+    height: auto;
+  }
+}
+
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
 .container {
-  width: 50vw;
+  width: 80rem;
   max-width: 80rem;
+  padding: 2em 5em;
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 2em;
+  }
 }

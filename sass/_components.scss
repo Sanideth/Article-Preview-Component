@@ -8,3 +8,17 @@
   color: var(--color-primary);
   font-weight: 800;
 }
+
+.btn-share {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.secondary {
+  width: 2rem;
+  height: 2rem;
+}
