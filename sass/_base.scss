@@ -28,9 +28,6 @@ body {
   align-items: center;
   font-size: 1.3rem;
   background-color: var(--color-quaternary);
-  @media only screen and (max-width: $bp-small) {
-    height: auto;
-  }
 }
 
 .btn {
@@ -46,5 +43,7 @@ body {
 
   @media only screen and (max-width: $bp-small) {
     padding: 2em;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 }

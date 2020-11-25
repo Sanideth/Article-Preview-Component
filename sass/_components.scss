@@ -16,6 +16,10 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+
+  &:hover .article-preview__share-icon {
+    opacity: 0.7;
+  }
 }
 
 .secondary {

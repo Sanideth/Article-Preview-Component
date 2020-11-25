@@ -89,6 +89,7 @@
     fill: var(--color-secondary);
     width: 1.4rem;
     height: 1.4rem;
+    transition: opacity 0.3s;
   }
   &__share-icon-secondary {
     fill: var(--color-secondary);
@@ -148,10 +149,15 @@
     width: 2rem;
     fill: #fff;
     display: flex;
+    transition: opacity 0.3s;
   }
   &__social-icon-link {
     display: inline-block;
     text-decoration: none;
+
+    &:hover .article-preview__social-icon {
+      opacity: 0.7;
+    }
   }
 }
 
